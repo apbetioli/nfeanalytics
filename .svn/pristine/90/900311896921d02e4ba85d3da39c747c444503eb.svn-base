@@ -1,0 +1,245 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<!DOCTYPE html>
+<head>
+<%@ include file="../jsp/head.jsp"%>
+
+<style type="text/css">
+.panel-heading .accordion-toggle.collapsed:after {
+	content: "\e080" !important;
+}
+
+.panel-heading .accordion-toggle:after {
+	font-family: 'Glyphicons Halflings';
+	content: "\e114" !important;
+	float: left;
+	margin-right: 5px;
+}
+</style>
+<style type="text/css">
+.flex-video {
+	position: relative;
+	padding-top: 25px;
+	padding-bottom: 67.5%;
+	height: 0;
+	margin-bottom: 16px;
+	overflow: hidden;
+}
+
+.flex-video.widescreen {
+	padding-bottom: 57.25%;
+}
+
+.flex-video.vimeo {
+	padding-top: 0;
+}
+
+.flex-video iframe,.flex-video object,.flex-video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media only screen and (max-device-width: 800px) , only screen and
+		(device-width: 1024px) and (device-height: 600px) , only screen and
+		(width: 1280px) and (orientation: landscape) , only screen and
+		(device-width: 800px) , only screen and (max-width: 767px) {
+	.flex-video {
+		padding-top: 0;
+	}
+}
+</style>
+</head>
+<body>
+	<%@ include file="../jsp/menu.jsp"%>
+
+	<br />
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h2 style="display: inline;">
+				<fmt:message key="menu_faq" />
+			</h2>
+		</div>
+	</div>
+
+	<hr class="featurette-divider">
+
+	<div class="container">
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a class="accordion-toggle" data-toggle="collapse"
+							data-parent="#accordion" href="#collapseOne"> <fmt:message
+								key="faq_perg1" />
+						</a>
+					</h4>
+				</div>
+				<div id="collapseOne" class="panel-collapse collapse">
+					<div class="panel-body">
+						<p class="lead">
+							<fmt:message key="faq_resp1" />
+						</p>
+						<a
+							href="http://www.nfe.fazenda.gov.br/portal/perguntasFrequentes.aspx?tipoConteudo=E4+tmY+ODf4="
+							target="_blank" class="btn btn-info"> <fmt:message
+								key="learn_more" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a class="accordion-toggle" data-toggle="collapse"
+							data-parent="#accordion" href="#collapseTwo"> <fmt:message
+								key="faq_perg2" /></a>
+					</h4>
+				</div>
+				<div id="collapseTwo" class="panel-collapse collapse">
+					<div class="panel-body">
+						<p class="lead">
+							<fmt:message key="faq_resp2" />
+						</p>
+						<a
+							href="http://www.nfe.fazenda.gov.br/portal/perguntasFrequentes.aspx?tipoConteudo=E4+tmY+ODf4="
+							target="_blank" class="btn btn-info"> <fmt:message
+								key="learn_more" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a class="accordion-toggle" data-toggle="collapse"
+							data-parent="#accordion" href="#collapseThree"> <fmt:message
+								key="faq_perg3" />
+						</a>
+					</h4>
+				</div>
+				<div id="collapseThree" class="panel-collapse collapse">
+					<div class="panel-body">
+						<p class="lead">
+							<fmt:message key="faq_resp3" />
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a class="accordion-toggle" data-toggle="collapse"
+							data-parent="#accordion" href="#collapseFour"> <fmt:message
+								key="faq_perg4" />
+						</a>
+					</h4>
+				</div>
+				<div id="collapseFour" class="panel-collapse collapse">
+					<div class="panel-body">
+						<p class="lead">
+							<fmt:message key="faq_resp4" />
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a class="accordion-toggle" data-toggle="collapse"
+							data-parent="#accordion" href="#collapseFive"> <fmt:message
+								key="faq_perg5" />
+						</a>
+					</h4>
+				</div>
+				<div id="collapseFive" class="panel-collapse collapse">
+					<div class="panel-body">
+						<p class="lead">
+							<fmt:message key="faq_resp5" />
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a class="accordion-toggle" data-toggle="collapse"
+							data-parent="#accordion" href="#collapseSix"> <fmt:message
+								key="faq_perg6" />
+						</a>
+					</h4>
+				</div>
+				<div id="collapseSix" class="panel-collapse collapse">
+					<div class="panel-body">
+						<p class="lead">
+							<fmt:message key="faq_resp6" />
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a class="accordion-toggle" data-toggle="collapse"
+							data-parent="#accordion" href="#collapseSeven"> <fmt:message
+								key="faq_perg7" />
+						</a>
+					</h4>
+				</div>
+				<div id="collapseSeven" class="panel-collapse collapse">
+					<div class="panel-body">
+						<div class="flex-video widescreen"
+							style="margin: 0 auto; text-align: center;">
+							<iframe width="560" height="315"
+								src="http://www.youtube.com/embed/K9XCKP9KN7A" frameborder="0"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a class="accordion-toggle" data-toggle="collapse"
+							data-parent="#accordion" href="#collapseEight"> <fmt:message
+								key="faq_perg8" />
+						</a>
+					</h4>
+				</div>
+				<div id="collapseEight" class="panel-collapse collapse">
+					<div class="panel-body">
+						<div class="flex-video widescreen"
+							style="margin: 0 auto; text-align: center;">
+							<iframe width="560" height="315"
+								src="http://www.youtube.com/embed/K9XCKP9KN7A" frameborder="0"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a class="accordion-toggle" data-toggle="collapse"
+							data-parent="#accordion" href="#collapseNine"> <fmt:message
+								key="faq_perg9" />
+						</a>
+					</h4>
+				</div>
+				<div id="collapseNine" class="panel-collapse collapse">
+					<div class="panel-body">
+						<div class="flex-video widescreen"
+							style="margin: 0 auto; text-align: center;">
+							<iframe width="560" height="315"
+								src="http://www.youtube.com/embed/K9XCKP9KN7A" frameborder="0"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Content -->
+
+	<%@ include file="../jsp/footer.jsp"%>
+
+</body>
+</html>

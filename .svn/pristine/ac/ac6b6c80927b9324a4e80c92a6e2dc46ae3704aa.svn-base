@@ -1,0 +1,195 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java"
+	isELIgnored="false"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<!DOCTYPE html>
+<head>
+<%@ include file="/jsp/head.jsp"%>
+</head>
+<body>
+	<%@ include file="/jsp/menu.jsp"%>
+
+	<!-- Slider -->
+	<div id="carousel-example-generic" class="carousel slide"
+		data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="images/img2.png" class="img-responsive">
+			</div>
+			<div class="item">
+				<img src="images/img5.png" class="img-responsive">
+			</div>
+			<div class="item">
+				<img src="images/img6.png" class="img-responsive">
+			</div>
+			<!-- 
+			<div class="item">
+				<img src="images/3.jpg" class="img-responsive" alt="Resultados">
+				<div class="carousel-caption">
+					<h3>
+						<fmt:message key="slide_titulo3" />
+					</h3>
+					<p>
+						<fmt:message key="slide_texto3" />
+					</p>
+				</div>
+			</div>
+			 -->
+		</div>
+
+		<a class="left carousel-control" href="#carousel-example-generic"
+			data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span>
+		</a> <a class="right carousel-control" href="#carousel-example-generic"
+			data-slide="next"> <span
+			class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+
+	<div class="container">
+		<h2 class="featurette-heading">
+			<fmt:message key="info_somente_3_passos" />
+		</h2>
+
+		<br />
+
+		<div class="row">
+			<div class="col-lg-4">
+				<h3>
+					<a href="/dashboard" class="link"> <span class="red">1</span> <fmt:message
+							key="info_login_google" />
+					</a>
+				</h3>
+				<p>
+					<fmt:message key="info_login_google_texto" />
+				</p>
+			</div>
+			<div class="col-lg-4">
+				<h3>
+					<a href="/dashboard" class="link"> <span class="orange">2</span>
+						<fmt:message key="info_upload_nfes" />
+					</a>
+				</h3>
+				<p>
+					<fmt:message key="info_upload_nfes_empresa" />
+				</p>
+			</div>
+			<div class="col-lg-4">
+				<h3>
+					<a href="/dashboard" class="link"> <span class="green">3</span>
+						<fmt:message key="info_resultados" />
+					</a>
+				</h3>
+				<p>
+					<fmt:message key="info_analise_o_dashboard" />
+				</p>
+			</div>
+		</div>
+
+		<hr class="featurette-divider">
+
+		<div class="row featurette">
+			<div class="col-md-9">
+				<h2 class="featurette-heading">
+					<fmt:message key="slide_titulo1" />
+				</h2>
+				<p class="lead">
+					<fmt:message key="slide_texto1" />
+				</p>
+			</div>
+			<div class="col-md-3">
+				<img class="featurette-image img-responsive"
+					src="/images/sobre1.jpg" alt="NFe">
+			</div>
+		</div>
+
+		<hr class="featurette-divider">
+
+		<div class="row featurette">
+			<div class="col-md-3">
+				<img class="featurette-image img-responsive"
+					src="/images/sobre2.jpg" alt="Brasil competitivo">
+			</div>
+			<div class="col-md-9">
+				<h2 class="featurette-heading">
+					<fmt:message key="slide_titulo2" />
+				</h2>
+				<p class="lead">
+					<fmt:message key="slide_texto2" />
+				</p>
+				<a href="http://www.nfe.fazenda.gov.br/portal/infoEstatisticas.aspx"
+					target="_blank" class="btn btn-info"> <fmt:message
+						key="learn_more" />
+				</a>
+			</div>
+		</div>
+
+		<hr class="featurette-divider">
+
+		<div class="row featurette">
+			<div class="col-md-9">
+				<h2 class="featurette-heading">
+					<fmt:message key="slide_titulo5" />
+				</h2>
+				<p class="lead">
+					<fmt:message key="slide_texto5" />
+				</p>
+			</div>
+			<div class="col-md-3">
+				<p class="center-block">
+					<img class="featurette-image img-responsive"
+						src="/images/sobre5.jpg" alt="Estatísticas">
+				</p>
+			</div>
+		</div>
+
+
+		<hr class="featurette-divider">
+
+		<div class="row featurette">
+			<div class="col-md-3">
+				<p class="center-block">
+					<img class="featurette-image img-responsive"
+						src="/images/sobre3.jpg" alt="Estatísticas">
+				</p>
+			</div>
+			<div class="col-md-9">
+				<h2 class="featurette-heading">
+					<fmt:message key="slide_titulo3" />
+				</h2>
+				<p class="lead">
+					<fmt:message key="slide_texto3" />
+				</p>
+			</div>
+		</div>
+
+		<hr class="featurette-divider">
+
+		<div class="row featurette">
+			<div class="col-md-9">
+				<h2 class="featurette-heading">
+					<fmt:message key="slide_titulo4" />
+				</h2>
+				<p class="lead">
+					<fmt:message key="slide_texto4" />
+				</p>
+				<a href="https://cloud.google.com/" target="_blank"
+					class="btn btn-info"> <fmt:message key="learn_more" />
+				</a>
+			</div>
+			<div class="col-md-3">
+				<p class="center-block">
+					<img class="featurette-image img-responsive"
+						src="/images/sobre4.jpg" alt="Google Cloud Platform">
+				</p>
+			</div>
+		</div>
+
+
+
+
+	</div>
+
+	<%@ include file="/jsp/footer.jsp"%>
+
+</body>
+</html>

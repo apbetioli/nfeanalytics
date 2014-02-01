@@ -1,0 +1,31 @@
+<!-- Indices written at Sat, 18 Jan 2014 19:02:04 BRST -->
+
+<datastore-indexes>
+
+    <!-- Used 3 times in query history -->
+    <datastore-index kind="DashboardEntity" ancestor="false" source="auto">
+        <property name="user" direction="asc"/>
+        <property name="nfeProc_NFe_infNFe_dest_xNome" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 5 times in query history -->
+    <datastore-index kind="DashboardEntity" ancestor="false" source="auto">
+        <property name="user" direction="asc"/>
+        <property name="nfeProc_NFe_infNFe_dest_enderDest_UF" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="DashboardEntity" ancestor="false" source="auto">
+        <property name="user" direction="asc"/>
+        <property name="yearMonth" direction="asc"/>
+        <property name="year" direction="asc"/>
+        <property name="month" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="DashboardEntity" ancestor="false" source="auto">
+        <property name="user" direction="asc"/>
+        <property name="year" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

@@ -1,0 +1,118 @@
+<script src="../js/bootstrap.min.js" type="text/javascript"></script>
+
+<hr class="featurette-divider" />
+
+<footer>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10"></div>
+			<div class="col-lg-2">
+				<a href="#"><span class="glyphicon glyphicon-arrow-up"></span> <fmt:message
+						key="menu_voltar_topo" /></a>
+			</div>
+		</div>
+		<br />
+
+		<div class="row">
+			<div class="col-lg-3">
+				<!-- Posicione esta tag onde você deseja que o botão compartilhar apareça. -->
+				<div class="g-plus" data-action="share"></div>
+
+				<!-- Posicione esta tag depois da última tag do compartilhar. -->
+				<script type="text/javascript">
+					window.___gcfg = {
+						lang : 'pt-BR'
+					};
+
+					(function() {
+						var po = document.createElement('script');
+						po.type = 'text/javascript';
+						po.async = true;
+						po.src = 'https://apis.google.com/js/platform.js';
+						var s = document.getElementsByTagName('script')[0];
+						s.parentNode.insertBefore(po, s);
+					})();
+				</script>
+			</div>
+			<div class="col-md-1">
+				<!-- Place this tag where you want the +1 button to render. -->
+				<div class="g-plusone"></div>
+
+				<!-- Place this tag after the last +1 button tag. -->
+				<script type="text/javascript">
+					(function() {
+						var po = document.createElement('script');
+						po.type = 'text/javascript';
+						po.async = true;
+						po.src = 'https://apis.google.com/js/platform.js';
+						var s = document.getElementsByTagName('script')[0];
+						s.parentNode.insertBefore(po, s);
+					})();
+				</script>
+
+
+			</div>
+
+			<div class="col-lg-2">
+				<div class="g-follow" data-annotation="bubble" data-height="20"
+					data-href="//plus.google.com/106549920620002875443"
+					data-rel="publisher"></div>
+
+				<script type="text/javascript">
+					window.___gcfg = {
+						lang : 'pt-BR'
+					};
+
+					(function() {
+						var po = document.createElement('script');
+						po.type = 'text/javascript';
+						po.async = true;
+						po.src = 'https://apis.google.com/js/platform.js';
+						var s = document.getElementsByTagName('script')[0];
+						s.parentNode.insertBefore(po, s);
+					})();
+				</script>
+
+			</div>
+
+
+			<div class="col-lg-4"></div>
+		</div>
+
+
+
+	</div>
+
+	<!-- Language Modal -->
+
+	<div class="modal fade" id="language_modal" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">
+						<fmt:message key="menu_linguagem" />
+					</h4>
+				</div>
+				<div class="modal-body">
+					<fmt:message key="modal_linguagem" />
+					<br /> <a href="?lang=en" onclick="window.location.reload(true)"><img
+						src="../images/lang_en_US.png"> <fmt:message
+							key="menu_linguagem_en" /></a> <br /> <br /> <a href="?lang=pt_BR"
+						onclick="window.location.reload(true)"><img
+						src="../images/lang_pt_BR.png"> <fmt:message
+							key="menu_linguagem_pt" /></a>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">
+						<fmt:message key="btn_fechar" />
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer>

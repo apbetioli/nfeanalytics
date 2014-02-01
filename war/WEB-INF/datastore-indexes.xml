@@ -1,0 +1,173 @@
+<!-- Indices written at Sun, 5 Jan 2014 16:06:31 BRST -->
+
+<datastore-indexes autoGenerate="true">
+
+	<!-- Used 13 times in query history -->
+	<datastore-index kind="DashboardEntity" ancestor="false"
+		source="auto">
+		<property name="user" direction="asc" />
+		<property name="nfeProc_NFe_infNFe_dest_xNome" direction="asc" />
+	</datastore-index>
+
+	<!-- Used 19 times in query history -->
+	<datastore-index kind="DashboardEntity" ancestor="false"
+		source="auto">
+		<property name="user" direction="asc" />
+		<property name="nfeProc_NFe_infNFe_dest_enderDest_UF"
+			direction="asc" />
+	</datastore-index>
+
+	<!-- Used 6 times in query history -->
+	<datastore-index kind="DashboardEntity" ancestor="false"
+		source="auto">
+		<property name="user" direction="asc" />
+		<property name="yearMonth" direction="asc" />
+		<property name="year" direction="asc" />
+		<property name="month" direction="asc" />
+	</datastore-index>
+
+	<!-- Used 6 times in query history -->
+	<datastore-index kind="DashboardEntity" ancestor="false"
+		source="auto">
+		<property name="user" direction="asc" />
+		<property name="year" direction="asc" />
+	</datastore-index>
+
+	<!-- Used 2 times in query history -->
+	<datastore-index kind="DetDashboardEntity" ancestor="false"
+		source="auto">
+		<property name="user" direction="asc" />
+		<property name="nfeProc_NFe_infNFe_ide_dEmi" direction="asc" />
+	</datastore-index>
+
+	<!-- Used 8 times in query history -->
+	<datastore-index kind="DashboardEntity" ancestor="false"
+		source="auto">
+		<property name="user" direction="asc" />
+		<property name="nfeProc_NFe_infNFe_ide_dEmi" direction="asc" />
+	</datastore-index>
+
+	<!-- Used 2 times in query history -->
+	<datastore-index kind="DashboardEntity" ancestor="false"
+		source="auto">
+		<property name="nfeProc_NFe_infNFe_dest_xNome" direction="asc" />
+		<property name="user" direction="asc" />
+		<property name="nfeProc_NFe_infNFe_dest_enderDest_UF"
+			direction="asc" />
+	</datastore-index>
+
+	<!-- Used 1 time in query history -->
+	<datastore-index kind="DetDashboardEntity" ancestor="false"
+		source="auto">
+		<property name="nfeProc_NFe_infNFe_dest_xNome" direction="asc" />
+		<property name="user" direction="asc" />
+		<property name="nfeProc_NFe_infNFe_ide_dEmi" direction="asc" />
+	</datastore-index>
+
+	<!-- Used 4 times in query history -->
+	<datastore-index kind="DashboardEntity" ancestor="false"
+		source="auto">
+		<property name="nfeProc_NFe_infNFe_dest_xNome" direction="asc" />
+		<property name="user" direction="asc" />
+		<property name="nfeProc_NFe_infNFe_ide_dEmi" direction="asc" />
+	</datastore-index>
+
+	<!-- Used 2 times in query history -->
+	<datastore-index kind="DashboardEntity" ancestor="false"
+		source="auto">
+		<property name="nfeProc_NFe_infNFe_dest_xNome" direction="asc" />
+		<property name="user" direction="asc" />
+		<property name="yearMonth" direction="asc" />
+		<property name="year" direction="asc" />
+		<property name="month" direction="asc" />
+	</datastore-index>
+
+	<!-- Used 2 times in query history -->
+	<datastore-index kind="DashboardEntity" ancestor="false"
+		source="auto">
+		<property name="nfeProc_NFe_infNFe_dest_xNome" direction="asc" />
+		<property name="user" direction="asc" />
+		<property name="year" direction="asc" />
+	</datastore-index>
+
+	<!-- Used 2 times in query history -->
+	<datastore-index kind="DetDashboardEntity" ancestor="false"
+		source="auto">
+		<property name="nfeProc_NFe_infNFe_dest_enderDest_UF"
+			direction="asc" />
+		<property name="nfeProc_NFe_infNFe_dest_xNome" direction="asc" />
+		<property name="user" direction="asc" />
+		<property name="nfeProc_NFe_infNFe_ide_dEmi" direction="asc" />
+	</datastore-index>
+
+	<!-- Used 8 times in query history -->
+	<datastore-index kind="DashboardEntity" ancestor="false"
+		source="auto">
+		<property name="nfeProc_NFe_infNFe_dest_enderDest_UF"
+			direction="asc" />
+		<property name="nfeProc_NFe_infNFe_dest_xNome" direction="asc" />
+		<property name="user" direction="asc" />
+		<property name="nfeProc_NFe_infNFe_ide_dEmi" direction="asc" />
+	</datastore-index>
+
+	<!-- Used 2 times in query history -->
+	<datastore-index kind="DashboardEntity" ancestor="false"
+		source="auto">
+		<property name="nfeProc_NFe_infNFe_dest_enderDest_UF"
+			direction="asc" />
+		<property name="nfeProc_NFe_infNFe_dest_xNome" direction="asc" />
+		<property name="user" direction="asc" />
+		<property name="yearMonth" direction="asc" />
+		<property name="year" direction="asc" />
+		<property name="month" direction="asc" />
+	</datastore-index>
+
+	<!-- Used 2 times in query history -->
+	<datastore-index kind="DashboardEntity" ancestor="false"
+		source="auto">
+		<property name="nfeProc_NFe_infNFe_dest_enderDest_UF"
+			direction="asc" />
+		<property name="nfeProc_NFe_infNFe_dest_xNome" direction="asc" />
+		<property name="user" direction="asc" />
+		<property name="year" direction="asc" />
+	</datastore-index>
+
+	<!-- Used 2 times in query history -->
+	<datastore-index kind="DetDashboardEntity" ancestor="false"
+		source="auto">
+		<property name="nfeProc_NFe_infNFe_dest_enderDest_UF"
+			direction="asc" />
+		<property name="user" direction="asc" />
+		<property name="nfeProc_NFe_infNFe_ide_dEmi" direction="asc" />
+	</datastore-index>
+
+	<!-- Used 8 times in query history -->
+	<datastore-index kind="DashboardEntity" ancestor="false"
+		source="auto">
+		<property name="nfeProc_NFe_infNFe_dest_enderDest_UF"
+			direction="asc" />
+		<property name="user" direction="asc" />
+		<property name="nfeProc_NFe_infNFe_ide_dEmi" direction="asc" />
+	</datastore-index>
+
+	<!-- Used 3 times in query history -->
+	<datastore-index kind="DashboardEntity" ancestor="false"
+		source="auto">
+		<property name="nfeProc_NFe_infNFe_dest_enderDest_UF"
+			direction="asc" />
+		<property name="user" direction="asc" />
+		<property name="yearMonth" direction="asc" />
+		<property name="year" direction="asc" />
+		<property name="month" direction="asc" />
+	</datastore-index>
+
+	<!-- Used 3 times in query history -->
+	<datastore-index kind="DashboardEntity" ancestor="false"
+		source="auto">
+		<property name="nfeProc_NFe_infNFe_dest_enderDest_UF"
+			direction="asc" />
+		<property name="user" direction="asc" />
+		<property name="year" direction="asc" />
+	</datastore-index>
+
+</datastore-indexes>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+
+	<context-param>
+		<param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>
+		<param-value>messages</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>maps.api.key</param-name>
+		<param-value>AIzaSyD9o6zSe6rTQiIk_K-GurZ8T5spwR9EXpo</param-value>
+	</context-param>
+
+	<servlet>
+		<servlet-name>AjaxUploadServlet</servlet-name>
+		<servlet-class>com.nfeanalytics.control.servlet.AjaxUploadServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ApiKeyServlet</servlet-name>
+		<servlet-class>com.nfeanalytics.control.servlet.ApiKeyServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ApiRestServlet</servlet-name>
+		<servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+		<init-param>
+			<param-name>com.sun.jersey.config.property.packages</param-name>
+			<param-value>com.nfeanalytics.control.rest</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ContactServlet</servlet-name>
+		<servlet-class>com.nfeanalytics.control.servlet.ContactServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DashboardServlet</servlet-name>
+		<servlet-class>com.nfeanalytics.control.servlet.DashboardServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DeleteAllRegistersServlet</servlet-name>
+		<servlet-class>com.nfeanalytics.control.servlet.DeleteAllRegistersServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>JspRedirectServlet</servlet-name>
+		<servlet-class>com.nfeanalytics.control.servlet.JspRedirectServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>XMLServlet</servlet-name>
+		<servlet-class>com.nfeanalytics.control.servlet.XMLServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AjaxUploadServlet</servlet-name>
+		<url-pattern>/ajaxupload</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ApiKeyServlet</servlet-name>
+		<url-pattern>/api_key</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ApiRestServlet</servlet-name>
+		<url-pattern>/api/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ContactServlet</servlet-name>
+		<url-pattern>/contact</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DashboardServlet</servlet-name>
+		<url-pattern>/dashboard</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DeleteAllRegistersServlet</servlet-name>
+		<url-pattern>/deleteAll</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>JspRedirectServlet</servlet-name>
+		<url-pattern>/faq</url-pattern>
+		<url-pattern>/index</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>XMLServlet</servlet-name>
+		<url-pattern>/xml</url-pattern>
+	</servlet-mapping>
+
+	<filter>
+		<filter-name>LoginFilter</filter-name>
+		<filter-class>com.nfeanalytics.control.filter.LoginFilter</filter-class>
+	</filter>
+
+	<filter>
+		<filter-name>TransactionFilter</filter-name>
+		<filter-class>com.nfeanalytics.control.filter.TransactionFilter</filter-class>
+	</filter>
+
+	<filter>
+		<filter-name>LanguageFilter</filter-name>
+		<filter-class>com.nfeanalytics.control.filter.LanguageFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>LoginFilter</filter-name>
+		<servlet-name>AjaxUploadServlet</servlet-name>
+		<servlet-name>ApiKeyServlet</servlet-name>
+		<servlet-name>DashboardServlet</servlet-name>
+		<servlet-name>XMLServlet</servlet-name>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>TransactionFilter</filter-name>
+		<servlet-name>AjaxUploadServlet</servlet-name>
+		<servlet-name>ApiKeyServlet</servlet-name>
+		<servlet-name>DashboardServlet</servlet-name>
+		<servlet-name>XMLServlet</servlet-name>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>LanguageFilter</filter-name>
+		<url-pattern>/</url-pattern>
+		<url-pattern>*.jsp</url-pattern>
+		<servlet-name>ApiKeyServlet</servlet-name>
+		<servlet-name>ContactServlet</servlet-name>
+		<servlet-name>DashboardServlet</servlet-name>
+		<servlet-name>JspRedirectServlet</servlet-name>
+		<servlet-name>XMLServlet</servlet-name>
+	</filter-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index</welcome-file>
+	</welcome-file-list>
+
+	<security-role>
+		<role-name>admin</role-name>
+	</security-role>
+
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>Administration</web-resource-name>
+			<url-pattern>/queue</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>admin</role-name>
+		</auth-constraint>
+	</security-constraint>
+
+</web-app>

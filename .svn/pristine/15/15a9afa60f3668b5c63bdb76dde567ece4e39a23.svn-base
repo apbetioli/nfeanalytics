@@ -1,0 +1,177 @@
+titulo=NFe Analytics
+
+btn_fechar=Fechar
+learn_more=Saiba mais...
+modal_linguagem=<p><b>Selecione sua linguagem preferida.</b></p><p>Para a sua comodidade, a NFe Analytics identifica automaticamente a linguagem do seu sistema operacional, mas também dá a opção para a troca da linguagem se desejado. A linguagem escolhida ficará salva em um cookie no seu navegador. Certifique-se que seu navegador está com a opção de cookies habilitada.</p>
+
+menu_upload=Upload
+menu_dashboard=Dashboard
+menu_linguagem=Linguagem
+menu_linguagem_en=English
+menu_linguagem_pt=Português
+menu_voltar_topo=Voltar ao topo
+menu_bem_vindo=Bem vindo
+menu_login=Entrar
+menu_logout=Sair
+menu_xml=Gerenciador de NFes
+menu_moderator=Sugestões e Dúvidas
+menu_faq=FAQ
+menu_opcoes=Ajuda
+menu_contato=Contato
+menu_api_key=API Key
+
+slide_titulo1=Visualização de dados 
+slide_texto1=A NFe Analytics apresenta uma ferramenta simples e objetiva de visualização estratégica de dados para a sua empresa, baseada em informações obtidas através da NFe (Nota Fiscal Eletrônica)
+slide_titulo2=Inteligência em negócios
+slide_texto2=Utilizando gráficos e mapas para a representação dos dados, sua empresa terá uma ferramenta incrível para tomar decisões, construir estratégias e aumentar lucros.
+slide_titulo3=Resultados
+slide_texto3=A facilidade de uso é nossa principal preocupação para que você possa obter resultados rapidamente.
+slide_titulo4=Segurança
+slide_texto4=A NFe Analytics roda sobre a infraestrutura em nuvem da Google. Toda a informação submetida será criptografada e armazenada com segurança.
+slide_titulo5=Repositório de NFes
+slide_texto5=A NFe Analytics também funciona como um repositório de NFes. Armazena os arquivos XML e disponibiliza para consulta e download, atendendo à legislação que obriga o armazenamento dos XMLs por um período mínimo de 5 anos.  
+
+
+info_somente_3_passos=Somente 3 passos...
+info_login_google=Entre com a sua conta Google
+info_login_google_texto=Não há necessidade de preencher formulários de cadastro. Você pode usar sua conta do Google já existente.
+info_upload_nfes=Faça o upload das NFes
+info_upload_nfes_empresa=Faça o upload de XMLs da NFe da sua empresa.
+info_resultados=E veja os RESULTADOS!
+info_analise_o_dashboard=Analise o desempenho de sua empresa com um painel de gráficos e mapas incríveis.
+
+sobre=Sobre
+sobre_texto1=A NFe Analytics apresenta uma ferramenta simples e objetiva de visualização de dados para a sua empresa, baseada em informações obtidas através da NFe (Nota Fiscal Eletrônica). Cada NFe é um arquivo digital em formato XML que deve ser sumetido via upload para a extração dos dados. 
+sobre_titulo2=Inteligência em negócios
+sobre_texto2=Existem hoje mais de um milhão de empresas que emitem a NFe, e já foram emitidas mais de 8 bilhões de NFes. Dado este cenário altamente competitivo, no qual as empresas brasileiras estão submetidas, é necessária uma ferramenta de inteligência em negócios para ajudar no crescimento e destaque neste mercado. Este é o nosso objetivo.
+sobre_titulo3=Repositório de NFes
+sobre_texto3=A NFe Analytics também funciona como um repositório de NFes, armazena os arquivos XML e disponibiliza para consulta e download atráves do próprio sistema ou pela nossa <a href="/api_key">API REST</a> para as empressas que desejam integrar com suas soluções existentes. Assim permitindo também atendendo à legislação que obriga o armazenamento dos XMLs por um período mínimo de 5 anos.  
+sobre_titulo4=Resultados
+sobre_texto4=Utilizando gráficos e mapas para a representação dos dados, sua empresa terá uma ferramenta incrível para ajudar na tomada de decisões, permitindo traçar estratégias em vendas e aumentar os lucros.
+sobre_titulo5=Segurança
+sobre_texto5=A NFe Analytics roda sobre a infraestrutura em nuvem da Google e toda a informação submetida será criptografada e armazenada com segurança e alta disponibilidade.
+
+upload_titulo=Upload
+upload_texto=Faça o upload de seus arquivos XML da NFe. A NFe Analytics irá processar, analisar e disponibilizar seus dados de uma nova maneira, simples e objetiva.
+upload_input=Escolha os arquivos XML:
+upload_btn_upload=Fazer upload!
+upload_warning=<strong>Atenção! </strong> Você não fez upload de nenhum arquivo	ainda. Clique no botão {0} para começar a obter resultados.
+upload_sucess=<strong>Sucesso!</strong> Todos os arquivos foram enviados.</div>
+
+dashboard_titulo=Dashboard
+dashboard_metodo_pgto=Método de pagamento
+dashboard_metodo_pgto_texto=Este indicador destaca as formas de pagamentos que são utilizadas pelos seus clientes. Este indicador fornece informações para tomar medidas de ajustes de finanças e, possivelmente, mudar estratégias de vendas e investimentos.
+dashboard_melhores_clientes=Top 5 Clientes
+dashboard_melhores_clientes_texto=Este indicador destaca os clientes que realizam mais compras na empresa. Com essas informações, a empresa pode dar mais incentivos para os seus melhores compradores, gerando mais receita e satisfação do seu cliente.
+dashboard_desempenho_empresa=Desempenho da empresa
+dashboard_desempenho_empresa_texto=Este indicador destaca as vendas realizadas pela empresa ao longo dos anos. Com essa informação, a empresa tem um histórico de desempenho, permitindo a tomada de decisão e monitoramento para atingir metas.
+dashboard_distribuicao_vendas=Distribuição de vendas
+dashboard_distribuicao_vendas_texto=Este indicador destaca a distribuição das vendas feitas pela empresa, mostrando sua área de atuação e também permitindo a expandir-se para outras áreas de interesse.
+dashboard_impostos=Impostos
+dashboard_impostos_texto=Este indicador apresenta um comparativo dos impostos pagos.
+dashboard_receita=Receitas e despesas por ano
+dashboard_receita_texto=Este indicador apresenta as receitas e despesas por ano.
+dashboard_frete_estado=Custo de frete por estado
+dashboard_frete_estado_texto=Este indicador apresenta os custo de frete por estado.
+dashboard_produtos=Top 10 produtos
+dashboard_produtos_texto==Este indicador apresenta os Top 10 produtos
+dashboard_filtros=Filtros
+dashboard_data_inicio=Data início:
+dashboard_data_fim=Data fim:
+dashboard_cliente=Cliente:
+dashboard_uf=Estado:
+dashboard_btn_aplicar=Aplicar
+dashboard_btn_aplicar_fechar=Aplicar e fechar
+dashboard_btn_limpar=Limpar
+dashboard_menu_crm=CRM
+dashboard_menu_crm_top_cli=Top 5 Clientes
+dashboard_menu_crm_freq_comp_cli=Frequencia de compra dos clientes (quantidade de compras por mês)
+dashboard_menu_fat_vend=Faturam./Vendas
+dashboard_menu_fat_vend_desemp_emp=Desempenho da empresa
+dashboard_menu_fat_vend_mod_pagto=Modo de pagamento
+dashboard_menu_fat_vend_dist_vend=Distribuição de vendas
+dashboard_menu_fat_vend_rec_desp_ano=Receitas e despesas anuais
+dashboard_menu_log=Logística
+dashboard_menu_log_fret_x_est=Frete vs Estado destino
+dashboard_menu_imposto=Impostos
+dashboard_menu_imposto_comparat=Comparativo de impostos
+dashboard_menu_prod=Produtos
+dashboard_menu_prod_top_vend=Top 10 produtos (valor/quantidade)
+dashboard_menu_indicadores=Indicadores
+
+tab_vendas=Vendas
+tab_clientes=Clientes
+tab_impostos=Impostos
+tab_logistica=Logística
+tab_produtos=Produtos
+
+xml_chnfe=Chave de acesso
+xml_data_upload=Upload
+xml_status=Status
+xml_download=Download
+xml_excluir=Excluir
+xml_processado=Processado
+xml_nao_processado=Não processado
+xml_modal_delete=Confirmação
+xml_modal_delete_texto=Deseja continuar com a exclusão do XML?
+xml_modal_delete_sim=Sim
+xml_modal_delete_nao=Não
+xml_modal_delete_tudo=Excluir tudo
+xml_modal_delete_tudo_texto=Deseja continuar com a exclusão de todos os XML's? <br/>Este processo pode levar alguns minutos e não pode ser revertido!
+
+moderator_titulo=Sugestões e FAQs
+
+faq_perg1= O que é a NFe?
+faq_resp1= Nota Fiscal Eletrônica (NFe) é um documento de existência apenas digital, emitido e armazenado eletronicamente, com o intuito de documentação e fiscalização da Receita Federal, é emitida em operações de circulação de mercadorias ou uma prestação de serviços, ocorrida entre as partes. Sua validade jurídica é garantida pela assinatura digital do remetente (garantia de autoria e de integridade) e a Autorização de uso fornecida pelo Fisco, antes da ocorrência do fato gerador. 
+faq_perg2= O que é um XML de NFe?
+faq_resp2= Cada NFe é um arquivo digital em formato XML, que contém informações de impostos, valores, produtos, emissor, destinatário e tranporte da operação realizada, que pode ser uma venda ou compra.
+faq_perg3= Por que extrair dados do XML da NFe?
+faq_resp3= O XML da NFe é um arquivo que deve ser armazendo por 5 anos de acordo com a legislação, com isso torna-se arquivo sem muita utilizadade depois da circulação da mercadoria. Nós identificamos que existem muitas informações nesses arquivos que podem auxiliar uma empresa a tomar decisões importantes em seu negócio, então desenvolvemos uma solução de inteligência em negócios para ajudar no crescimento e destaque entre seus concorrentes.
+faq_perg4= Posso enviar qualquer XML ?
+faq_resp4= Não, somente XMLs de NFe autorizada pela Receira Federal Brasileira. Arquivos XML da NFe sem o protocolo de autorização não serão aceitos.
+faq_perg5= Posso remover meus dados quando desejar?
+faq_resp5= Sim, no menu do usuário você irá encontrar o <a href="/xml">Gerenciador de NFe</a>, onde poderá remover seus XMLs, e assim que removido será excluído as informações referente ao XML.
+faq_perg6= Consigo integrar meu sistema emissor de NFe com a NFe Analytics ?
+faq_resp6= Nós disponibilizamos uma interface REST para integração com a NFe analytics, onde o sistema emissor poderá enviar diretamente os XMLs da NFe sem a necessidade de realizar o upload manualmente. Acesse no menu do usuário <a href="/api_key">API Key</a> para maiores informações.
+
+
+contato_nome=Nome
+contato_nomeph=Informe seu nome completo
+contato_email=E-mail
+contato_emailph=Informe seu e-mail para contato
+contato_coment=Comentário
+contato_enviar=Enviar
+contato_limpar=Limpar
+contato_envio_sucesso=E-mail enviado com sucesso!<br/> Agradecemos seu contato.
+contato_envio_erro=Houve um problema no envio do email, tente novamente.<br/> Caso o problema persista envie-nos um e-email para nfeanalytics@gmail.com<br/> Obrigado.
+contato_campo_obrig=Campo Obrigatório
+contato_campo_email_inv=Favor informar um email válido
+
+api_key_gerar_btn=Gerar nova API Key
+api_key_nao_existe_alert=Você ainda não possui uma API Key. Para criar, clique no botão {0}
+api_key_existe_alert=Sua API Key atual é <strong>{0}</strong>
+api_key_doc_titulo=REST API Documentation
+api_key_doc_description=A NFe Analytics disponibiliza uma interface REST para integração com outros sistemas, permitindo que as NFes sejam enviadas assim que forem criadas, mantendo seu dashboard sempre atualizado. Segue abaixo os métodos disponíveis.
+api_key_doc_table_head_http_method=HTTP Method
+api_key_doc_table_head_url=URL
+api_key_doc_table_head_param=Header Param
+api_key_doc_table_head_accept=Accept
+api_key_doc_table_head_content=Content-Type
+api_key_doc_table_head_description=Description
+api_key_doc_table_method1=Returns all the NFes
+api_key_doc_table_method2=Sends a XML
+api_key_doc_table_method3=Returns one NFe
+api_key_doc_table_method4=Deletes one NFe
+api_key_doc_table_method5=Download the XML NFe
+api_key_doc_obs1=Substitua pela chave de acesso da sua NFe.	Exemplo: /api/nfe/41110707998548000111550020000001419286122312
+api_key_doc_obs2=O header param <b>api-key</b> também pode ser passado como parâmetros via url, porém tome cuidado! Os parâmetros enviados dia URL ficam visíveis nas requisições HTTP e podem ser interceptados e utilizados para o mal. Exemplo: /api/nfe?api-key={0}
+api_key_doc_status_desc=Os seguintes status de retorno devem ser verificados pela aplicação cliente para solução de problema
+
+api_key_doc_status_head1=HTTP Status
+api_key_doc_status_head2=Description
+api_key_doc_status_200=OK
+api_key_doc_status_204=OK. Sem resposta.
+api_key_doc_status_400=Bad Request. Verifique os parâmetros enviados
+api_key_doc_status_401=Authentication Required. Verifique se a api-key foi enviada como parâmetro corretamente
+api_key_doc_status_500=Erro interno do servidor. <a href="/contact">Entre em contato conosco</a> para podermos verificar o problema.
+
